@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#FFFCF6">
+<title>釜山之旅｜2026.11.13–11.18</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Huninn&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:light;--paper:#FFFCF6;--ink:#3E3A39;--muted:#7a7470;--coral:#F2A497;--yellow:#F6D27A;--blue:#A8D3E6;--green:#B9DAA5;--line:3px solid var(--ink)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(72px + env(safe-area-inset-top,0px))}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Huninn","Noto Sans TC",system-ui,sans-serif;line-height:1.6;padding-top:calc(58px + env(safe-area-inset-top,0px))}
+a{color:inherit}
+header{position:fixed;top:0;left:0;right:0;z-index:20;background:var(--paper);border-bottom:var(--line);padding:env(safe-area-inset-top,0px) 14px 0}
+nav{max-width:720px;margin:auto;height:54px;display:flex;align-items:center;justify-content:space-between;gap:6px}
+.brand{font-weight:700;text-decoration:none;white-space:nowrap}
+nav .l{display:flex;gap:4px}
+nav .l a{padding:6px 11px;border-radius:99px;text-decoration:none;font-size:14px;border:2px solid transparent}
+nav .l a:active,nav .l a:hover{background:var(--yellow);border-color:var(--ink)}
+main{max-width:720px;margin:auto;padding:18px 16px calc(60px + env(safe-area-inset-bottom,0px))}
+.card{border:var(--line);border-radius:28px;background:#fff;padding:18px}
+.hero{background:var(--blue);padding:22px 18px 0;overflow:hidden;text-align:center}
+.pill{display:inline-block;border:2px solid var(--ink);background:var(--paper);border-radius:99px;padding:3px 13px;font-size:13px}
+h1{font-size:46px;margin:10px 0 2px;line-height:1.1;letter-spacing:.06em}
+.hero p{margin:0 0 12px}
+.cd{display:inline-flex;align-items:baseline;gap:8px;background:var(--yellow);border:var(--line);border-radius:20px;padding:6px 18px}
+.cd b{font-size:32px;font-weight:400}
+.hero svg{display:block;width:100%;height:auto;margin-top:6px}
+.bob{animation:bob 4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.bob2{animation-delay:-1.8s}
+.train{animation:ride 7s ease-in-out infinite alternate}
+.wave{animation:wv 5s ease-in-out infinite alternate}
+@keyframes bob{50%{transform:translateY(-6px)}}
+@keyframes ride{from{transform:translateX(-22px)}to{transform:translateX(22px)}}
+@keyframes wv{from{transform:translateX(-10px)}to{transform:translateX(10px)}}
+h2{font-size:26px;margin:38px 0 12px;display:flex;align-items:center;gap:8px}
+h2:before{content:"";width:16px;height:16px;border:3px solid var(--ink);border-radius:50%;background:var(--coral)}
+.flight{background:#FFF1D6}
+.leg{padding:10px 0;border-top:2px dashed var(--ink)}
+.leg:first-of-type{border-top:0;padding-top:0}
+.leg b{display:inline-block;background:var(--coral);border:2px solid var(--ink);border-radius:99px;padding:0 12px;font-weight:400;font-size:14px}
+.big{font-size:20px;margin:6px 0 0}
+.stay{background:#EEF6E4;margin-top:14px}
+.stay h4,.flight h3{margin:0 0 8px;font-size:19px}
+.stay p{margin:2px 0 8px;font-size:15px}
+.stay hr{border:0;border-top:2px dashed var(--ink);margin:12px 0}
+.tabs{display:flex;gap:9px;overflow-x:auto;padding:4px 2px 12px;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:0 0 auto;min-width:76px;border:var(--line);border-radius:20px;background:#fff;padding:6px 10px;text-align:center;font:inherit;color:inherit;cursor:pointer;line-height:1.3}
+.tab small{display:block;font-size:12px;color:var(--muted)}
+.tab b{font-weight:400;font-size:18px}
+.tab[aria-selected=true]{background:var(--yellow);animation:pop .5s cubic-bezier(.3,1.8,.5,1)}
+@keyframes pop{0%{transform:scale(.8)}60%{transform:scale(1.12) translateY(-3px)}100%{transform:scale(1)}}
+.panel{animation:in .35s ease-out}
+@keyframes in{from{opacity:0;transform:translateY(10px)}}
+.dt{font-size:13px;color:var(--muted)}
+.panel h3{margin:0 0 10px;font-size:21px;line-height:1.35}
+.note{border:2px dashed var(--ink);border-radius:16px;background:#FFF1D6;padding:8px 12px;margin:0 0 14px;font-size:14px}
+.tl{margin:6px 0 0 8px;border-left:3px solid var(--ink);padding-left:20px}
+.ev{position:relative;padding-bottom:18px}
+.ev:last-child{padding-bottom:2px}
+.ev:before{content:"";position:absolute;left:-31px;top:5px;width:14px;height:14px;border:3px solid var(--ink);border-radius:50%;background:var(--coral)}
+.ev:nth-child(3n+2):before{background:var(--yellow)}
+.ev:nth-child(3n):before{background:var(--green)}
+.t{font-size:14px;color:var(--muted)}
+.ev h4{margin:0;font-size:18px;line-height:1.4;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.must{font-size:12px;background:var(--coral);border:2px solid var(--ink);border-radius:99px;padding:0 9px;font-weight:400;transform:rotate(-3deg)}
+.pass{font-size:12px;background:var(--green);border:2px solid var(--ink);border-radius:99px;padding:0 9px}
+.tg{display:inline-block;font-size:12px;border:2px solid var(--ink);border-radius:99px;padding:0 9px;background:var(--paper);white-space:nowrap}
+.m-計程車{background:var(--coral)}.m-地鐵{background:var(--blue)}.m-步行{background:var(--green)}.m-包車,.m-飛機,.m-列車{background:var(--yellow)}
+.r{display:flex;gap:7px;align-items:flex-start;margin:6px 0 0;font-size:14px}
+.r .tg{margin-top:1px}
+.ev a.mp{display:inline-block;font-size:13px;margin-top:3px}
+.nt{font-size:14px;margin:6px 0 0;padding:7px 12px;background:var(--paper);border:2px solid var(--ink);border-radius:14px;white-space:pre-line}
+.ck{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-top:2px dashed var(--ink);cursor:pointer}
+.ck:first-of-type{border-top:0}
+.ck input{appearance:none;-webkit-appearance:none;flex:0 0 28px;width:28px;height:28px;border:3px solid var(--ink);border-radius:9px;background:#fff;margin:0;cursor:pointer;display:grid;place-items:center}
+.ck input:checked{background:var(--green)}
+.ck input:checked:after{content:"✓";font-size:18px;line-height:1}
+.ck input:checked+span{text-decoration:line-through;color:var(--muted)}
+.ck input:active{animation:pop .4s}
+.prog{margin:0 0 6px;font-size:14px;color:var(--muted)}
+.bar{height:14px;border:3px solid var(--ink);border-radius:99px;background:#fff;overflow:hidden;margin-bottom:8px}
+.bar i{display:block;height:100%;width:0;background:var(--coral);transition:width .4s}
+footer{text-align:center;margin-top:34px;color:var(--muted)}
+:focus-visible{outline:3px solid #176b8e;outline-offset:2px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header><nav aria-label="主要選單"><a class="brand" href="#top">釜山之旅 ✿</a><div class="l"><a href="#info">資訊</a><a href="#plan">行程</a><a href="#todo">待辦</a></div></nav></header>
+<main id="top">
+<section class="card hero">
+<span class="pill">BUSAN · 2026.11.13 — 11.18</span>
+<h1>釜山之旅</h1>
+<p>把海風、海岸列車與夜晚燈光，收進六天裡。</p>
+<div class="cd" aria-live="polite"><span id="cl">距離出發</span><b id="cv">—</b><span id="cu">天</span></div>
+<svg viewBox="0 0 400 230" role="img" aria-label="釜山插畫：太陽、廣安大橋、海岸列車與海浪">
+<g class="bob"><circle cx="318" cy="52" r="30" fill="#F6D27A" stroke="#3E3A39" stroke-width="4"/></g>
+<g class="bob bob2" fill="#FFFCF6" stroke="#3E3A39" stroke-width="4" stroke-linejoin="round"><path d="M40 70q0-14 14-14 6-12 22-6 16-4 20 12 12 2 10 14z"/></g>
+<g fill="#FFFCF6" stroke="#3E3A39" stroke-width="4" stroke-linejoin="round"><path d="M14 150V98h34v52M54 150V74h38v76M98 150V108h30v42M258 150V90h36v60M300 150V112h32v62"/><path d="M62 86h8v8h-8zM76 86h8v8h-8zM62 106h8v8h-8zM76 106h8v8h-8zM266 102h8v8h-8zM280 102h8v8h-8z" fill="#A8D3E6" stroke-width="3"/></g>
+<g stroke="#3E3A39" stroke-width="4" fill="none" stroke-linecap="round"><path d="M132 140H388M168 140V84M352 140V84M168 84Q260 150 352 84M168 84L132 140M352 84L388 140"/><path d="M196 140v-22M224 140v-34M252 140v-40M280 140v-34M308 140v-22" stroke-width="3"/></g>
+<g fill="#F2A497" stroke="#3E3A39" stroke-width="4" class="train"><rect x="150" y="104" width="64" height="30" rx="12"/><rect x="216" y="104" width="64" height="30" rx="12" fill="#B9DAA5"/><g fill="#FFFCF6" stroke-width="3"><rect x="160" y="111" width="14" height="11" rx="4"/><rect x="184" y="111" width="14" height="11" rx="4"/><rect x="226" y="111" width="14" height="11" rx="4"/><rect x="250" y="111" width="14" height="11" rx="4"/></g></g>
+<path d="M0 168Q50 150 100 168T200 168T300 168T400 168V230H0z" fill="#A8D3E6" stroke="#3E3A39" stroke-width="4"/>
+<g class="wave" fill="none" stroke="#3E3A39" stroke-width="4" stroke-linecap="round"><path d="M0 196Q35 182 70 196T140 196T210 196T280 196T350 196T420 196"/><path d="M-20 218Q15 206 50 218T120 218T190 218T260 218T330 218T400 218" opacity=".6"/></g>
+<g class="bob bob2"><path d="M290 190l30-6 8 14h-38z" fill="#F6D27A" stroke="#3E3A39" stroke-width="4" stroke-linejoin="round"/><path d="M308 184V160l14 20z" fill="#FFFCF6" stroke="#3E3A39" stroke-width="3" stroke-linejoin="round"/></g>
+</svg>
+</section>
+
+<h2 id="info">旅程小抄</h2>
+<section class="card flight" aria-label="航班"><h3>✈ 星宇航空</h3>
+<div class="leg"><b>去程 JX900</b><p class="big">08:25 桃園 T1 → 11:30 金海</p><div class="dt">11/13（五）</div></div>
+<div class="leg"><b>回程 JX901</b><p class="big">12:30 金海國際線 → 14:15 桃園</p><div class="dt">11/18（三）</div></div></section>
+<section class="card stay" aria-label="住宿"><h3 style="margin:0 0 6px;font-size:19px">🏠 住宿資訊</h3>
+<h4>① TERRACE_HOUSE　11/13–11/16</h4><p>地鐵萇山站附近<br>중동217-2 3,4층, 중동, 釜山 48082</p><a href="https://www.google.com/maps/search/?api=1&query=%EC%A4%91%EB%8F%99217-2%203%2C4%EC%B8%B5%2C%20%EC%A4%91%EB%8F%99%2C%20%EB%B6%80%EC%82%B0" target="_blank" rel="noopener noreferrer">開啟地圖 ↗</a><hr>
+<h4>② Hada busan station　11/16–11/18</h4><p>釜山站附近<br>釜山廣域市東區中央大路 214 號街 3-6 號 2F</p><a href="https://www.google.com/maps/search/?api=1&query=%E9%87%9C%E5%B1%B1%E5%BB%A3%E5%9F%9F%E5%B8%82%E6%9D%B1%E5%8D%80%E4%B8%AD%E5%A4%AE%E5%A4%A7%E8%B7%AF%20214%20%E8%99%9F%E8%A1%97%203-6%20%E8%99%9F%202F" target="_blank" rel="noopener noreferrer">開啟地圖 ↗</a>
+<p style="margin-top:10px">🔑 兩間皆由房東提供密碼鎖密碼。</p></section>
+
+<h2 id="plan">每日行程</h2>
+<div class="tabs" role="tablist" id="tabs" aria-label="選擇日期"></div>
+<section class="card" id="panel" role="tabpanel" aria-live="polite"></section>
+
+<h2 id="todo">出發前待辦</h2>
+<section class="card"><p class="prog" id="pg"></p><div class="bar"><i id="bar"></i></div><div id="cks"></div></section>
+<footer>☀ 慢慢走，把釜山的海風帶回家。</footer>
+</main>
+<script>
+const Q=q=>"https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(q);
+const D=[
+{w:"五",d:"11/13",t:"抵達釜山・海雲台散步",n:"14:30 放行李，15:00 前往釜山三麗鷗咖啡廳。",e:[
+["05:00","包車從金山出發前往桃園機場","包車"],
+["08:25","搭機出發（JX900）","飛機",0,0,0,"11:30 抵達金海機場",[["計程車","金海機場 → TERRACE_HOUSE 約 45 分｜$650"]]],
+["14:30","TERRACE_HOUSE 放行李","寄放行李",0,0,"중동217-2 부산",0,[["地鐵","→ 海雲台站約 30 分"]]],
+["15:00","釜山三麗鷗咖啡廳","咖啡・甜點",0,0,"釜山三麗鷗咖啡廳"],
+["17:00","海雲台","海邊散步",1,0,"海雲台 釜山",0,[["計程車","→ TERRACE_HOUSE 約 10 分｜$150"]]],
+["晚上","回 TERRACE_HOUSE 休息"]]},
+{w:"六",d:"11/14",t:"天空膠囊・廣安里無人機",e:[
+["09:00","尾浦天空膠囊／青沙浦周邊","天空膠囊",1,0,"釜山 尾浦 青沙浦",0,[["步行","TERRACE_HOUSE → 尾浦約 30 分"],["計程車","或約 10 分｜$120"],["計程車","尾浦 → 青沙浦約 10 分｜$130"],["地鐵","青沙浦 → 廣安里站約 15 分"]]],
+["17:30","廣安里無人機","夜間表演",1,0,"廣安里海水浴場 釜山",0,[["地鐵","→ 萇山站回住宿"]]],
+["晚上","回 TERRACE_HOUSE 休息"]]},
+{w:"日",d:"11/15",t:"海岸列車・龍宮寺・樂天世界",e:[
+["09:00","青沙浦搭海岸列車至松亭","海岸列車",0,"BIG5 B","青沙浦 松亭 海岸列車",0,[["計程車","住宿 → 青沙浦約 10 分｜$130"],["計程車","青沙浦 → 海東龍宮寺約 12 分｜$160"]]],
+["10:00","海東龍宮寺","寺院・海景",1,0,"海東龍宮寺",0,[["步行","→ 斜坡滑車約 20 分"]]],
+["11:30","斜坡滑車","戶外體驗",0,0,"釜山 斜坡滑車",0,[["步行","→ 樂天世界約 18 分"]]],
+["15:00","樂天世界","主題樂園",1,"BIG5 A","釜山樂天世界",0,[["計程車","→ Hill Spa 約 15 分｜$230"]]],
+["19:30","Hill Spa","汗蒸幕",0,"BIG5 A","Hill Spa Busan",0,[["計程車","→ TERRACE_HOUSE 約 10 分｜$150"]]],
+["晚上","回 TERRACE_HOUSE 休息"]]},
+{w:"一",d:"11/16",t:"新世界百貨・白淺文化村・ARTE MUSEUM",e:[
+["早上","整理行李，從 TERRACE_HOUSE 退房","退房"],
+["10:00","新世界百貨","購物",0,0,"新世界百貨 釜山","行李寄放：B2F 本館、1F Mall\n會員卡：3F／兒童遊戲區：9F／潮牌：B1–B2",[["地鐵","住宿 → Centum City 站約 10 分"],["地鐵","→ Hada busan station 約 40–50 分（轉乘 1 次）"],["計程車","或約 50 分｜$450"]]],
+["14:00","Hada busan station 放行李","寄放行李",0,0,"釜山廣域市東區中央大路 214 號街 3-6 號 2F",0,[["計程車","→ 白淺文化村約 20 分｜$210"]]],
+["15:00","白淺文化村","海岸村落",1,0,"白淺文化村 釜山",0,[["計程車","→ ARTE MUSEUM 約 15 分｜$180"]]],
+["18:00","ARTE MUSEUM BUSAN","沉浸式藝術",0,"BIG5 B","ARTE MUSEUM BUSAN",0,[["計程車","→ Hada busan station 約 20 分｜$230"]]],
+["晚上","回 Hada busan station 休息"]]},
+{w:"二",d:"11/17",t:"南浦洞・甘川洞・松島纜車",e:[
+["09:00","南浦洞市場周邊","市場・逛街",0,0,"南浦洞市場 釜山","札嘎其市場\nBIFF 廣場\n富平罐頭市場",[["地鐵","→ 札嘎其站"],["計程車","→ 甘川文化村約 10 分｜$120"]]],
+["14:00","甘川文化村","彩色山城",1,0,"甘川文化村 釜山",0,[["計程車","→ 松島纜車約 12 分｜$150"]]],
+["16:30","松島纜車","海上纜車",1,"BIG5 B","釜山松島纜車",0,[["計程車","→ 樂天超市光復店約 10 分｜$160"]]],
+["19:30","樂天超市光復店","採買",0,0,"Lotte Mart Gwangbok Busan",0,[["地鐵","→ 釜山站回住宿"]]],
+["晚上","回 Hada busan station 休息"]]},
+{w:"三",d:"11/18",t:"回程日・和釜山說再見",e:[
+["早上","從 Hada busan station 退房","退房"],
+["09:20","包車前往金海機場","包車",0,0,0,"JX901｜12:30 起飛，14:15 抵達桃園機場"]]}
+];
+const T=["確認航班報到、行李規定與前往機場時間","確認兩間住宿入住時間與密碼鎖資訊","確認 11/13 放行李後前往三麗鷗咖啡廳的交通","確認天空膠囊、海岸列車、斜坡滑車與樂園票券","補上 11/16 光影藝術活動的名稱與地點","補充每日交通方式與預估移動時間"];
+const $=id=>document.getElementById(id),esc=s=>String(s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+const tabs=$("tabs"),panel=$("panel");
+tabs.innerHTML=D.map((x,i)=>`<button class="tab" role="tab" id="t${i}" aria-selected="false" aria-controls="panel"><small>週${x.w}</small><b>${x.d}</b></button>`).join("");
+function show(i,f){
+ [...tabs.children].forEach((b,j)=>{b.setAttribute("aria-selected",j===i);b.tabIndex=j===i?0:-1});
+ const x=D[i];
+ panel.setAttribute("aria-labelledby","t"+i);
+ panel.innerHTML=`<div class="panel"><div class="dt">Day ${i+1} · ${x.d}（${x.w}）</div><h3>${esc(x.t)}</h3>${x.n?`<div class="note">📌 ${esc(x.n)}</div>`:""}<div class="tl">${x.e.map(v=>`<div class="ev"><div class="t">${v[0]}</div><h4>${esc(v[1])}${v[2]?`<span class="tg">${esc(v[2])}</span>`:""}${v[3]?'<span class="must">必去</span>':""}${v[4]?`<span class="pass">BUSAN PASS ${v[4]}</span>`:""}</h4>${v[6]?`<div class="nt">${esc(v[6])}</div>`:""}${(v[7]||[]).map(r=>`<div class="r"><span class="tg m-${r[0]}">${r[0]}</span><span>${esc(r[1])}</span></div>`).join("")}${v[5]?`<a class="mp" target="_blank" rel="noopener noreferrer" href="${Q(v[5])}">地圖 ↗</a>`:""}</div>`).join("")}</div></div>`;
+ if(f)tabs.children[i].focus();
+}
+tabs.addEventListener("click",e=>{const b=e.target.closest(".tab");if(b)show([...tabs.children].indexOf(b))});
+tabs.addEventListener("keydown",e=>{const c=[...tabs.children],i=c.indexOf(document.activeElement);if(i<0)return;const k={ArrowRight:1,ArrowLeft:-1}[e.key];if(!k)return;e.preventDefault();show((i+k+c.length)%c.length,1)});
+show(0);
+// countdown
+(()=>{const df=new Date(2026,10,13,8,25)-new Date();if(df<0){$("cl").textContent="旅程已啟程";$("cv").textContent="釜山";$("cu").textContent="見";}else $("cv").textContent=Math.ceil(df/864e5);})();
+// todo
+const sv=k=>{try{return localStorage.getItem("busan-"+k)==="1"}catch(e){return false}};
+const st=(k,v)=>{try{localStorage.setItem("busan-"+k,v?"1":"0")}catch(e){}};
+$("cks").innerHTML=T.map((s,i)=>`<label class="ck"><input type="checkbox" data-k="${i}"><span>${esc(s)}</span></label>`).join("");
+const cs=[...document.querySelectorAll(".ck input")];
+function up(){const n=cs.filter(c=>c.checked).length;$("pg").textContent=`已完成 ${n} / ${cs.length} 項`;$("bar").style.width=n/cs.length*100+"%"}
+cs.forEach(c=>{c.checked=sv(c.dataset.k);c.addEventListener("change",()=>{st(c.dataset.k,c.checked);up()})});up();
+</script>
+</body>
+</html>
